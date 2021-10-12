@@ -1,0 +1,226 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background: rgb(253, 255, 122);
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', 'delf-serif'; 
+    /* font: normal 16px 'Roboto', 'sens-serif'; */
+
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: violet;
+}
+
+
+.imgSKZ{
+    width: 220px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 10);
+}
+
+.info{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 700px){
+    .info{
+        display: block;
+        text-align: center;
+    }
+}
+
+.info-text{
+    margin-left:40px;
+}
+
+.info-text h4{
+    margin-bottom:20px;
+}
+
+.info p {
+    color:#86898f;
+    margin: 0;
+    font-style: italic;
+    text-decoration: none;
+    /* text-transform: capitalize; 
+    letter-spacing: 4px;
+    word-spacing: 20px;*/
+}
+
+.container{
+    margin:40px auto;
+    max-width:850px;
+    padding-top: 30px;
+}
+
+.bg-yellow{
+    background: #fff9dc;
+}
+
+.bg-green{
+    background: #e5ffe7;
+}
+
+.bg-red{
+    background: #fcdfdf;
+}
+.card{
+    padding:15px 20px;
+    
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2{
+    margin-bottom: 20px;
+}
+
+.list{
+    padding: 0 20px;
+    list-style:disc;
+}
+
+.list li{
+    color:rgb(38, 197, 150);
+    margin-bottom: 10px;
+}
+
+.list li a{
+    color:rgb(38, 197, 150);
+}
+.list li a:active{
+    color: violet;
+}
+
+.table{
+    width:100%;
+}
+
+.table td{
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2){
+    color:teal;
+    font-weight: bold;
+}
+.table td:nth-child(1){
+    color:teal;
+}
+.table tr:nth-child(odd){  /*even - чётные строки      odd - нечётные строки*/
+    background:wheat;
+}
+
+.contact h2{
+    text-align: center;
+}
+
+.form-group label{
+    display:block;
+    font-size: 14px;
+    color:rgb(109, 99, 109);
+}
+
+.form-group input,
+.form-group textarea{
+    width:100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 22px;
+    color:#000;
+    padding:15px 0 10px;
+    outline:none;
+    font-family: inherit;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group{
+    width:50%;
+}
+
+.row > .form-group:first-child{
+    margin-right: 20px;
+}
+
+.btn{
+    background: violet;
+    color:#fff;
+    font-weight: bold;
+    padding: 15px 20px;
+    border:none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity:0.8;
+}
+.btn:active{
+    color:black;
+}
+
+/* Position */
+
+/* .position{
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+} */
+
+.box{
+    position: fixed;
+    top:0;
+    left:0px;
+    /* bottom:150px;
+    left:20px; */
+    width: 100%;
+    height: 50px;
+    background: rgb(144, 226, 195);
+    text-align: center;
+}
+
+
+
+/*Box Models
+.videos{
+    background: rgb(142, 255, 77);
+    //padding: 15px;
+    //padding: 15px 20px 25px 30px;верх, право, низ, ліво
+    padding: 15px 40px;     //верх+низ, ліво+право
+    margin: 20px;
+    border: 5px solid rgb(255, 197, 197);
+    border-top-style: dotted;
+    border-top-width: 10px;
+    border-bottom-style: dotted;
+    border-bottom-width: 10px;
+}*/
+
+/* .box-model > div{
+    float: left;
+    background: black;
+    height: 200px;
+    border:4px solid red;
+    width: 25%;
+    box-sizing: border-box;
+} */
